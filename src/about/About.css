@@ -1,0 +1,43 @@
+.about-contain {
+  height: 400px;
+  width: 500px;
+  margin-top: 70px !important;
+  padding: 10px;
+}
+
+.about-con {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-img,
+.about-text {
+  height: 400px;
+  width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-con {
+    display: block;
+    width: 400px !important;
+  }
+  .about-contain {
+    display: block;
+    width: 400px !important;
+    height: 500px !important;
+    margin-top: 20px !important;
+  }
+  .about-img,
+  .about-text {
+    display: block;
+    width: 400px !important;
+    height: 300px !important;
+    margin-left: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+}
+
+@media only screen and (max-width: 900px) {
+}

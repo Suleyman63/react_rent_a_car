@@ -1,0 +1,98 @@
+.header {
+  background-color: rgb(240, 11, 11);
+  height: 90px;
+  top: 0;
+  margin: 0%;
+  padding: 0%;
+  color: white;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h3 {
+  margin-left: 20px;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.logo {
+  height: 60px;
+  width: 200px;
+  top: 0;
+  margin-left: 20px !important;
+}
+.btn-sign {
+  margin-right: 40px !important;
+  width: 150px;
+  float: right !important;
+  font-size: 22px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  padding: 10px;
+  margin-bottom: 15px;
+
+  border: 2px solid white;
+  color: white;
+  background-color: rgb(240, 11, 11);
+}
+
+.btn-sign:hover {
+  background-color: blue;
+  color: white;
+}
+
+#mySidenav a {
+  position: absolute;
+  z-index: 900 !important;
+  left: -30px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+
+.home {
+  top: 150px;
+  background-color: rgb(240, 11, 11);
+  font-weight: 600;
+}
+
+.about {
+  top: 220px;
+  background-color: rgb(240, 11, 11);
+  font-weight: 600;
+}
+
+.service {
+  top: 290px;
+  background-color: rgb(240, 11, 11);
+  font-weight: 600;
+}
+
+.career {
+  top: 360px;
+  background-color: rgb(240, 11, 11);
+  font-weight: 600;
+}
+
+.contact {
+  top: 430px;
+  background-color: rgb(240, 11, 11);
+  font-weight: 600;
+}

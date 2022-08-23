@@ -1,0 +1,38 @@
+.ser {
+  height: 350px;
+  background-color: rgb(241, 222, 197);
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.ser-div {
+  margin-bottom: 10px;
+}
+
+.ser-img {
+  height: 70px;
+  width: 100px;
+  float: left;
+  padding: 0 10px 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .ser {
+    height: 1100px;
+  }
+  .ser-div-row {
+    display: block;
+  }
+  .ser-div {
+    padding-top: 10px;
+  }
+
+  .ser-img {
+    height: 70px;
+    width: 70px;
+    float: left;
+    padding: 10px 10px 10px 10px;
+  }
+}
