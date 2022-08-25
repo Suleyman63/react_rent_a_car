@@ -1,10 +1,9 @@
 .product {
-  margin-left: 80px;
-  margin-right: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .product-header {
-  color: black;
   font-weight: 600;
   background-color: red;
   height: 70px;
@@ -13,17 +12,20 @@
 }
 
 .product-card {
-  height: 550px;
-  width: 300px;
-  margin-left: 30px;
-  padding: 20px;
+  height: 450px;
+  width: 320px !important;
   background-color: #1b2631;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 5px 10px;
 }
 
 .card-body {
-  border: 1px solid white;
-  box-shadow: 3px 3px 5px 10px;
+  width: 270px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-img-top {
@@ -32,14 +34,16 @@
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  width: 300px;
-  height: 270px;
+  width: 270px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-product {
   background-color: rgb(211, 10, 10);
   color: white;
-  padding: 8px;
+  padding: 6px;
 }
 
 .btn-product:hover {
@@ -47,5 +51,5 @@
   color: white;
 }
 .card-text {
-  font-size: 12px;
+  font-size: 11px;
 }

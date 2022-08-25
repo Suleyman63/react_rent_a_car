@@ -25,22 +25,25 @@ const data = [
 
 const About = () => {
   return (
-    <div className="about-con ">
-      {data.map((b) => {
-        const { id, image, text } = b;
-        return (
-          <div className="about-contain" key={id}>
-            <img className="about-img" src={image} alt="" />
-            <p className="about-text mt-3">
-              {text}
-              <a className="mx-2" href="/">
-                Learn More
-                <i className="fa fa-chevron-right mx-1"></i>
-              </a>
-            </p>
-          </div>
-        );
-      })}
+    <div>
+      <h4 className="about-header mt-4">ABOUT US</h4>
+      <div className="about-con ">
+        {data.map((b) => {
+          const { id, image, text } = b;
+          return (
+            <div className="about-contain" key={id}>
+              <img className="about-img" src={image} alt="" />
+              <p className="about-text mt-3">
+                {text}
+                <a className="mx-2" href="/">
+                  Learn More
+                  <i className="fa fa-chevron-right mx-1"></i>
+                </a>
+              </p>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };

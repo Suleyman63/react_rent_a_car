@@ -82,7 +82,7 @@ const Product2 = () => {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     speed: 3000,
@@ -96,13 +96,13 @@ const Product2 = () => {
         {data.map((p) => {
           const { id, url, title, text, price } = p;
           return (
-            <div class=" product-card" key={id}>
-              <div class="card-body">
-                <img class="card-img-top p-2" src={url} alt="Card cap" />
-                <h5 class="card-title mt-2">{title}</h5>
-                <p class="card-text">{text}</p>
+            <div className="card product-card" key={id}>
+              <img className="card-img-top p-2" src={url} alt="Card cap" />
+              <div className="card-body">
+                <h5 className="card-title">{title}</h5>
+                <p className="card-text">{text}</p>
                 <p>Per month {price} $</p>
-                <Link to="#" class="btn btn-product">
+                <Link to="#" className="btn btn-product">
                   Go somewhere
                 </Link>
               </div>
